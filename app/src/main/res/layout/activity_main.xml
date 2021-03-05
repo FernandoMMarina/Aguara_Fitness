@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000000"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/prepare"
+            android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"S
+                    android:layout_height="20dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Prepare"
+                    android:textColor="#8D0000"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/icon-menos.svg"
+                    android:contentDescription="@string/button_icon_desc"
+                />
+
+                            <Button
+                                android:id="@+id/bt-p-prepare"
+                                android:layout_width="100dp"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="-30dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginLeft="300dp"/>
+    </LinearLayout>
+        <View
+            android:id="@+id/separe"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="#707070" />
+
+
+</LinearLayout>
